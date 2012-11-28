@@ -67,6 +67,24 @@ typedef vector<string> mvtkStringList;
 #define MVTK_UNSIGNED_LONG   9
 #define MVTK_FLOAT          10
 #define MVTK_DOUBLE         11
+//
+////变量数组初始化宏
+//#define AllocateMacro(d,t,s) \
+//	switch(t){ \
+//		case MVTK_VOID:			return; \
+//		case MVTK_BIT:			return; \
+//		case MVTK_CHAR:			d=new char[s];break; \
+//		case MVTK_UNSIGNED_CHAR:d=new unsigned char[s];break; \
+//		case MVTK_SHORT:		d=new short[s];break; \
+//		case MVTK_UNSIGNED_SHORT:d=new unsigned short[s];break; \
+//		case MVTK_INT:			d=new int[s];break; \
+//		case MVTK_UNSIGNED_INT:	d=new unsigned int[s];break; \
+//		case MVTK_LONG:			d=new long[s];break; \
+//		case MVTK_UNSIGNED_LONG:d=new unsigned long[s];break; \
+//		case MVTK_FLOAT:		d=new float[s];break; \
+//		case MVTK_DOUBLE:		d=new double[s];break; \
+//		default:return; \
+//} \
 
 // Some constant required for correct template performance
 #define MVTK_BIT_MIN 0

@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="mvtkCore"
-	ProjectGUID="{F6D8536D-A60B-484C-AB4D-7BFDFCAFF7C0}"
-	RootNamespace="mvtkCore"
+	Name="mvtkCoreTest"
+	ProjectGUID="{84606026-E7C8-44D3-B6F1-6F342EDBA7CA}"
+	RootNamespace="mvtkCoreTest"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -20,7 +20,7 @@
 			Name="Debug|Win32"
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="2"
+			ConfigurationType="1"
 			CharacterSet="1"
 			>
 			<Tool
@@ -41,8 +41,8 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories=""
-				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;MVTKCORE_EXPORTS;MVTK_COMMON_DLL"
+				AdditionalIncludeDirectories="../mvtkCore"
+				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -62,9 +62,9 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories=""
+				AdditionalLibraryDirectories="../Debug"
 				GenerateDebugInformation="true"
-				SubSystem="2"
+				SubSystem="1"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -93,7 +93,7 @@
 			Name="Release|Win32"
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="2"
+			ConfigurationType="1"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
 			>
@@ -116,7 +116,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;MVTKCORE_EXPORTS"
+				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
@@ -136,7 +136,7 @@
 				Name="VCLinkerTool"
 				LinkIncremental="1"
 				GenerateDebugInformation="true"
-				SubSystem="2"
+				SubSystem="1"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
 				TargetMachine="1"
@@ -173,31 +173,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\mvtkBMPReader.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\mvtkGarbageCollector.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\mvtkObject.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\mvtkReader.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\mvtkVolume.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\mvtkVolumeReader.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\mvtkWriter.cpp"
+				RelativePath=".\T_BMPReader.cpp"
 				>
 			</File>
 		</Filter>
@@ -206,118 +182,6 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<Filter
-				Name="mvtk_nl"
-				>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_lineareq.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_matrix.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_matrix_algo.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_polynomial.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_rand.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_transform.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtk_nl\mvtk_nl_vector.h"
-					>
-				</File>
-			</Filter>
-			<Filter
-				Name="Source"
-				>
-				<File
-					RelativePath=".\mvtkBMPReader.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkReader.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkSource.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkVolumeReader.h"
-					>
-				</File>
-			</Filter>
-			<Filter
-				Name="Target"
-				>
-				<File
-					RelativePath=".\mvtkTarget.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkWriter.h"
-					>
-				</File>
-			</Filter>
-			<Filter
-				Name="Base"
-				>
-				<File
-					RelativePath=".\mvtkCommonIncludes.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkGarbageCollector.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkGlobal.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkObject.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkObserver.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkProcessObject.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkRCPtr.h"
-					>
-				</File>
-			</Filter>
-			<Filter
-				Name="Data"
-				>
-				<File
-					RelativePath=".\mvtkDataObject.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkMesh.h"
-					>
-				</File>
-				<File
-					RelativePath=".\mvtkVolume.h"
-					>
-				</File>
-			</Filter>
 		</Filter>
 		<Filter
 			Name="资源文件"

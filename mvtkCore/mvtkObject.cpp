@@ -41,41 +41,45 @@ void mvtkObject::PrintSelf(ostream& os){
 }
 
 void mvtkObject::AddObserver(mvtkObserver* observer){
-	observer->AddReference();
+	//observer->AddReference();
 	this->m_Observers->push_back(observer);
 }
 
 void mvtkObject::RemoveObserver(mvtkObserver* observer){
-	observer->RemoveReference();
+	//observer->RemoveReference();
 	this->m_Observers->remove(observer);
+	observer->Delete();
 }
 
 void mvtkObject::RemoveAllObservers(){
+	list<mvtkObserver*>::iterator v;
+	for(v=this->m_Observers->begin();v!=this->m_Observers->end();++v){
+		(*v)->Delete();
+	}
 	this->m_Observers->clear();
 }
 
-void mvtkObject::AddReference(){
-	this->m_ReferenceCount++;
-	//this->Delete();
-}
-
-void mvtkObject::RemoveReference(){
-	//this->m_ReferenceCount--;
-	this->Delete();
-}
+//void mvtkObject::AddReference(){
+//	this->m_ReferenceCount++;
+//	this->Delete();
+//}
+//
+//void mvtkObject::RemoveReference(){
+//	this->m_ReferenceCount--;
+//	this->Delete();
+//}
 
 void mvtkObject::Delete(){
-	this->m_ReferenceCount--;
-	if(this->m_ReferenceCount<=0){
+	//if(this->m_ReferenceCount<=0){
 		delete this;//¹û¶Ï»Óµ¶×Ô¹¬
-	}
+	//}
 }
 
 mvtkObject::mvtkObject(){
 	this->m_Observers=new list<mvtkObserver*>;
 	this->m_Debug=0;
-	this->m_ReferenceCount=0;
-	mvtkGarbageCollector::GetGarbageCollector()->AddObject(this);
+	//this->m_ReferenceCount=0;
+	//mvtkGarbageCollector::GetGarbageCollector()->AddObject(this);
 }
 
 mvtkObject::~mvtkObject(){
@@ -83,16 +87,16 @@ mvtkObject::~mvtkObject(){
 
 	// warn user if reference counting is on and the object is being referenced
 	// by another object
-	if ( this->GetReferenceCount() > 0)
-	{
-		mvtkErrorMessage("Trying to delete object with non-zero reference count.");
-	}
+	//if ( this->GetReferenceCount() > 0)
+	//{
+	//	mvtkErrorMessage("Trying to delete object with non-zero reference count.");
+	//}
 
 	list<mvtkObserver*>::iterator v;
 	for(v=this->m_Observers->begin();v!=this->m_Observers->end();++v){
 		(*v)->Delete();
 	}
-	mvtkGarbageCollector::GetGarbageCollector()->RemoveObject(this);
+	//mvtkGarbageCollector::GetGarbageCollector()->RemoveObject(this);
 	delete this->m_Observers;
 	this->m_Observers=NULL;
 }

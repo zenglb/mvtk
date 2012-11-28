@@ -29,7 +29,7 @@ class mvtkObserver;
 class MVTK_COMMON_API mvtkObject
 {
 public:
-	static mvtkObject * New(){return new mvtkObject;}
+	//static mvtkObject * New(){return new mvtkObject;}
     ///////////////////////////////////////////////////////////////////////////
     /// Get the class name as a string. The purpose is to support RTTI.
 	/// \return Return the class name of this object. For mvtkObject, it always 
@@ -117,24 +117,24 @@ public:
 	///////////////////////////////////////////////////////////////////////
 	void RemoveAllObservers();
 
-	///////////////////////////////////////////////////////////////////////
-	/// Add 1 to the referenct count. Only when the reference count of a MVTK
-	/// object is equal to 0, it can be deleted.	
-	///////////////////////////////////////////////////////////////////////
-	void AddReference();
+	/////////////////////////////////////////////////////////////////////////
+	///// Add 1 to the referenct count. Only when the reference count of a MVTK
+	///// object is equal to 0, it can be deleted.	
+	/////////////////////////////////////////////////////////////////////////
+	//void AddReference();
 
-    ///////////////////////////////////////////////////////////////////////
-	/// Remove 1 to the referenct count. If reference count is equal to zero
-	/// after remove 1, then this object is deleted automatically.
-	///////////////////////////////////////////////////////////////////////
-	void RemoveReference();
+ //   ///////////////////////////////////////////////////////////////////////
+	///// Remove 1 to the referenct count. If reference count is equal to zero
+	///// after remove 1, then this object is deleted automatically.
+	/////////////////////////////////////////////////////////////////////////
+	//void RemoveReference();
 
-    ///////////////////////////////////////////////////////////////////////
-	/// Get current referenct count of this object. Only when the reference
-	/// count of a MVTK object is equal to 0, it can be deleted.	
-	/// \return Return the reference count of this object.
-	///////////////////////////////////////////////////////////////////////
-	int  GetReferenceCount()    {return m_ReferenceCount;}
+ //   ///////////////////////////////////////////////////////////////////////
+	///// Get current referenct count of this object. Only when the reference
+	///// count of a MVTK object is equal to 0, it can be deleted.	
+	///// \return Return the reference count of this object.
+	/////////////////////////////////////////////////////////////////////////
+	//int  GetReferenceCount()    {return m_ReferenceCount;}
 	
 	///////////////////////////////////////////////////////////////////////
 	/// If current reference count is equal to 0, delete this object, otherwise,
@@ -154,7 +154,7 @@ protected:
 	void _updateObservers();
 
     int m_Debug;     // Enable debug messages
-	int m_ReferenceCount;
+	//int m_ReferenceCount;
 
 	list<mvtkObserver*>* m_Observers;
 
