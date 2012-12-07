@@ -45,7 +45,7 @@ protected:
 	int _getFileCount(void);
 	const char* _getFileName(int nIndex);
 
-    list<string>* m_FileNames;
+    list<string*>* m_FileNames;
 //private:
 //	mvtkReader(const mvtkReader&);
 //    void operator=(const mvtkReader&);

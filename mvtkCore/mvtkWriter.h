@@ -44,7 +44,7 @@ protected:
 	int _getFileCount(void);
 	const char* _getFileName(int nIndex);
 
-    list<string>* m_FileNames;
+    list<string*>* m_FileNames;
 //private:
 //	mvtkWriter(const mvtkWriter&);
 //    void operator=(const mvtkWriter&);

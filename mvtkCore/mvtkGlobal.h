@@ -309,7 +309,7 @@ MVTK_COMMON_API int mvtkGetDataTypeSize(int dataType);
 MVTK_COMMON_API double mvtkGetDataTypeMin(int dataType);
 MVTK_COMMON_API double mvtkGetDataTypeMax(int dataType);
 
-#include "mvtk_nl/mvtk_nl_vector.h"
+#include "mvtk_utilities/mvtk_nl/mvtk_nl_vector.h"
 
 typedef double					ScalarParameterType;
 typedef float					ScalarPixelType;

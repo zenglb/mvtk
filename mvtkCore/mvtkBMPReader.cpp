@@ -1,13 +1,6 @@
 #include "mvtkBMPReader.h"
 #include "mvtkVolume.h"
 
-mvtkBMPReader::mvtkBMPReader(){
-	this->m_ImgProgressMethod=NULL;
-	memset(this->m_Spacings,0,3*sizeof(float));
-}
-mvtkBMPReader::~mvtkBMPReader(){
-	this->m_ImgProgressMethod=NULL;
-}
 void mvtkBMPReader::Update(){//********强烈注意内存泄露问题********记得delete***另外注意速度***
 	if(this->m_StartMethod!=NULL){
 		this->m_StartMethod();
@@ -31,7 +24,7 @@ void mvtkBMPReader::Update(){//********强烈注意内存泄露问题********记得delete***
 	for (int i=0;i<file_count;i++)
 	{
 		if(this->m_ProgressMethod!=NULL){
-			ProgressValue=((double)i)/((double)file_count);
+			ProgressValue=((double)i+1)/((double)file_count);
 			this->m_ProgressMethod(&ProgressValue);
 		}
 

@@ -33,44 +33,14 @@ public:
 
 	virtual void PrintSelf(ostream& os){};
 
-	///////////////////////////////////////////////////////////////////////
-	/// Set spacing information in x axis, the unit is mm.
-	/// \param px the spacing (mm) in two adjacent voxels in x axis.
-	///////////////////////////////////////////////////////////////////////	
-	void SetSpacingX(float px){ m_Spacings[0] = px ;}
-
-	///////////////////////////////////////////////////////////////////////
-	/// Set spacing information in y axis, the unit is mm.
-	/// \param py the spacing (mm) in two adjacent voxels in y axis.
-	///////////////////////////////////////////////////////////////////////	
-	void SetSpacingY(float py){ m_Spacings[1] = py ;}
-
-	///////////////////////////////////////////////////////////////////////
-	/// Set spacing information in z axis, the unit is mm.
-	/// \param pz the spacing (mm) in two adjacent voxels in z axis.
-	///////////////////////////////////////////////////////////////////////	
-	void SetSpacingZ(float pz){ m_Spacings[2] = pz ;}
-
-	///////////////////////////////////////////////////////////////////////
-	/// Set spacing information in x, y, z axis respectively, the unit is mm.
-	/// \param px the spacing (mm) in two adjacent voxels in x axis.
-	/// \param py the spacing (mm) in two adjacent voxels in y axis.
-	/// \param pz the spacing (mm) in two adjacent voxels in z axis.
-	///////////////////////////////////////////////////////////////////////
-	void SetSpacings(float s[3])
-	{
-		m_Spacings[0] = s[0];
-		m_Spacings[1] = s[1];
-		m_Spacings[2] = s[2];
-	}
-
 	virtual void Update();
 
-	void SetImgProgressMethod(void (* f) (void*,void*,int,int,int,int&,int&)){m_ImgProgressMethod = f;}
+	mvtkBMPReader(){};
+	virtual ~mvtkBMPReader(){}; 
 
-protected:
-	mvtkBMPReader();
-	virtual ~mvtkBMPReader();    
+//protected:
+//	mvtkBMPReader(){};
+//	virtual ~mvtkBMPReader(){};    
 
 #pragma pack(2)
 	typedef struct tagBITMAPFILEHEADER
@@ -116,10 +86,10 @@ protected:
 	//	unsigned short	bcBitCount; 
 	//} BMP_CORE_HEADER;	
 
-	float m_Spacings[3];
+	
 
 private:
-	void (* m_ImgProgressMethod) (void* src_img,void* des_img,int MVTK_DataType,int src_w,int src_h,int& des_w,int& des_h);
+	
 //	mvtkBMPReader(const mvtkBMPReader&){};
 //	void operator=(const mvtkBMPReader&){};
 

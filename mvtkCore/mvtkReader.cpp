@@ -1,8 +1,8 @@
 #include "mvtkReader.h"
 
 void mvtkReader::AddFileName(const char *inFileName){
-	string str=*(new string);
-	str=inFileName;
+	string* str=new string;
+	str->append(inFileName);
 	this->m_FileNames->push_back(str);
 }
 
@@ -14,9 +14,9 @@ void mvtkReader::SortFileNames(){
 }
 
 void mvtkReader::RemoveAllFileNames(){
-	list<string>::iterator it;
+	list<string*>::iterator it;
 	for (it=this->m_FileNames->begin();it!=this->m_FileNames->end();++it){
-		delete &(*it);
+		delete (*it);
 	}
 	this->m_FileNames->clear();
 }
@@ -26,13 +26,13 @@ int mvtkReader::_getFileCount(void){
 }
 
 const char* mvtkReader::_getFileName(int nIndex){
-	list<string>::iterator it=this->m_FileNames->begin();
+	list<string*>::iterator it=this->m_FileNames->begin();
 	advance(it,nIndex);//µü´úÆ÷ÍùºóÒÆ¶¯
-	return it->c_str();
+	return (*it)->c_str();
 }
 
 mvtkReader::mvtkReader(){
-	this->m_FileNames=new list<string>;
+	this->m_FileNames=new list<string*>;
 }
 mvtkReader::~mvtkReader(){
 	this->RemoveAllFileNames();

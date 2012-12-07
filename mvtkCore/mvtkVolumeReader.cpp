@@ -3,6 +3,8 @@
 #include <io.h>
 
 mvtkVolumeReader::mvtkVolumeReader(){
+	this->m_ImgProgressMethod=NULL;
+	memset(this->m_Spacings,0,3*sizeof(float));
 	this->m_OutData=mvtkVolume::New();
 	this->m_FilePattern=NULL;
 }
@@ -11,6 +13,7 @@ mvtkVolumeReader::~mvtkVolumeReader(){
 	if(this->m_FilePattern){
 		delete this->m_FilePattern;
 	}
+	this->m_ImgProgressMethod=NULL;
 }
 
 //"D:\\VHData\\heart\\heart*" 这样的形式  更新样式 更新文件列表
