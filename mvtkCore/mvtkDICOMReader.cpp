@@ -66,6 +66,7 @@ void mvtkDICOMReader::Update()
 
 		if(m_ImgProgressMethod != NULL)
 			this->m_ImgProgressMethod(pixels,d_pixels,MVTK_UNSIGNED_CHAR,d_w,d_h,d_w,d_h);
+
 		if(!this->m_OutData->GetIsInitialize()){//初始化工作
 				this->m_OutData->SetChannelNum(ch_num);
 				this->m_OutData->SetTimeInterval(1);//时间维度先设置为1 这个我还没想好怎样实现
@@ -81,5 +82,14 @@ void mvtkDICOMReader::Update()
 
 		memcpy(img_pixels,d_pixels,img_off_set);
 		img_pixels += img_off_set;
+
+		if(d_pixels!=NULL&&d_pixels!=pixels){
+			delete[] d_pixels;
+			d_pixels=NULL;
+		}
+	}
+
+	if(this->m_EndMethod!=NULL){
+		this->m_EndMethod();
 	}
 }

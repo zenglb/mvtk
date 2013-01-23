@@ -14,7 +14,7 @@ public:
 
 	virtual void PrintSelf(ostream& os){}
 
-    bool Run();
+    virtual void Update()=0;
 
     void SetStartMethod(void (* f) (void)) {m_StartMethod = f;}
     void SetEndMethod(void (* f) (void)){m_EndMethod = f;}

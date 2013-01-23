@@ -1,13 +1,5 @@
 #include "mvtkRawReader.h"
 #include "mvtkVolume.h"
-#include <sys/types.h>
-#include <sys/stat.h>
-#if defined (_WIN32)
-#  include <io.h> // make portable for windows
-#else
-#include <unistd.h>
-#endif
-
 
 mvtkRawReader::mvtkRawReader(void)
 {
@@ -41,19 +33,20 @@ void mvtkRawReader::Update()
 			this->m_ProgressMethod(&ProgressValue);
 		}
 		const char* strFile=_getFileName(i);
-		FILE* infile=fopen(strFile,"rb");
-		if(NULL == infile){
+		ifstream* fpi=NULL;
+		fpi=new ifstream(strFile,std::ios_base::binary);
+		//FILE* infile=fopen(strFile,"rb");
+		if(!fpi->is_open()){
 			mvtkDebugMessage("can't open "<<strFile);
 			return ;
 		}
 
 		int numOfPiexl=this->w*this->h;
 		int count=numOfPiexl;
+
 		for(int c=0;c<ch_num;c++){
 			for(int i=0;i<numOfPiexl;i++){
-				unsigned char pix;
-				fread(&pix,sizeof(unsigned char),1,infile);
-				pixel[i*ch_num + c]=pix;
+				fpi->read(reinterpret_cast<char *>(&pixel[i*ch_num + c]),sizeof(unsigned char));
 			}
 		}
 
@@ -75,9 +68,17 @@ void mvtkRawReader::Update()
 			img_pixel_offset=d_h*d_w*ch_num;//¼ÆËãÆ«ÒÆÁ¿
 		}
 		memcpy(img_pixels,d_pixel,img_pixel_offset);
-		fclose(infile);		
-
+		fpi->close();
+		delete fpi;
+		if(d_pixel!=NULL&&d_pixel!=pixel){
+			delete[] d_pixel;
+			d_pixel=NULL;
+		}
 	}
 	delete []pixel;
+
+	if(this->m_EndMethod!=NULL){
+		this->m_EndMethod();
+	}
 
 }

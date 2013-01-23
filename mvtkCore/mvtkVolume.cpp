@@ -79,3 +79,56 @@ double mvtkVolume::GetData(int x, int y, int z,int t, int c,bool check_bounds){
 	} 
 	return ret;
 }
+
+void mvtkVolume::DeepCopy(mvtkVolume* in_mvtkVolume,bool setDate){
+
+	in_mvtkVolume->GetDimensions(this->m_Dimensions);
+	in_mvtkVolume->GetIncrements(this->m_Increments);
+	in_mvtkVolume->GetSpacings(this->m_Spacings);
+	this->m_DataType=in_mvtkVolume->GetDataType();
+	this->m_NumberOfChannel=in_mvtkVolume->GetNumberOfChannel();
+
+	if(setDate){
+		this->Initialize();
+		unsigned long long s=((unsigned long)m_NumberOfChannel)*((unsigned long)m_Dimensions[0])*((unsigned long)m_Dimensions[1])*((unsigned long)m_Dimensions[2])*((unsigned long)m_Dimensions[3]);
+		memcpy(this->m_Data,in_mvtkVolume->GetData(),s);
+	}
+}
+
+void mvtkVolume::GetMinMaxValue(double &minVal, double &maxVal)
+{
+	unsigned long size=m_Dimensions[0]*m_Dimensions[1]*m_Dimensions[2]*m_Dimensions[3];
+
+	switch(this->m_DataType){
+		case MVTK_CHAR:			t_GetMinMaxValue((char*)this->m_Data,size,minVal,maxVal);break; 
+		case MVTK_UNSIGNED_CHAR:t_GetMinMaxValue((unsigned char*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_SHORT:		t_GetMinMaxValue((short*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_UNSIGNED_SHORT:t_GetMinMaxValue((unsigned short*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_INT:			t_GetMinMaxValue((int*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_UNSIGNED_INT:	t_GetMinMaxValue((unsigned int*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_LONG:			t_GetMinMaxValue((long*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_UNSIGNED_LONG:t_GetMinMaxValue((unsigned long*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_FLOAT:		t_GetMinMaxValue((float*)this->m_Data,size,minVal,maxVal);break;
+		case MVTK_DOUBLE:		t_GetMinMaxValue((double*)this->m_Data,size,minVal,maxVal);break;
+	}
+}
+
+//获得最大最小值
+template<typename T>
+void mvtkVolume::t_GetMinMaxValue(T* data,unsigned size,double &minVal, double &maxVal)
+{
+	unsigned i;
+	T min_v,max_v;
+	min_v=max_v=*data;
+	
+	T* pData=data+1;
+	
+	for (i=1;i<size;i++,pData++)
+	{
+		if (min_v>*pData) min_v=*pData;
+		if (max_v<*pData) max_v=*pData;
+	}
+
+	minVal=min_v;
+	maxVal=max_v;
+}

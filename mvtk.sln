@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mvtkCore", "mvtkCore\mvtkCore.vcproj", "{F6D8536D-A60B-484C-AB4D-7BFDFCAFF7C0}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mvtkCore", "mvtkCore\mvtkCore.vcxproj", "{F6D8536D-A60B-484C-AB4D-7BFDFCAFF7C0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mvtkCoreTest", "mvtkCoreTest\mvtkCoreTest.vcproj", "{84606026-E7C8-44D3-B6F1-6F342EDBA7CA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mvtkCoreTest", "mvtkCoreTest\mvtkCoreTest.vcxproj", "{84606026-E7C8-44D3-B6F1-6F342EDBA7CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

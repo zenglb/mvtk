@@ -143,6 +143,15 @@ void mvtkJPGReader::Update()
 
 
 	  fclose(infile);
+
+	  if(d_pixel!=NULL&&d_pixel!=pixel){
+		  delete[] d_pixel;
+		  d_pixel=NULL;
+	  }
+  }
+
+  if(this->m_EndMethod!=NULL){
+	  this->m_EndMethod();
   }
   
 }

@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\Source">
+      <UniqueIdentifier>{d59ed83a-fe47-4bff-a7ac-e411d62553d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Target">
+      <UniqueIdentifier>{dfca8f0a-4c4c-49de-821b-4cc5d948435a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Base">
+      <UniqueIdentifier>{4f308d91-65cc-4591-b4ca-e6a0ea05635f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Data">
+      <UniqueIdentifier>{a967d377-ef67-48ca-94e9-34bfba7d94bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mvtk_utilities">
+      <UniqueIdentifier>{84bb0ef5-c7b8-4632-9aad-c8939015a2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mvtk_utilities\jpeg">
+      <UniqueIdentifier>{a9e919d0-a1d9-4339-8297-1f1bbbb70216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mvtk_utilities\dicom">
+      <UniqueIdentifier>{cf709a53-617f-40b4-965d-5cd19f884eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mvtk_utilities\mvtk_nl">
+      <UniqueIdentifier>{05f33b9c-1489-438a-b595-d14c564b774a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Filter">
+      <UniqueIdentifier>{0f9a8fc9-1317-4add-a30c-ca6071db08b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件\源文件\mvtk_utilities">
+      <UniqueIdentifier>{6bb7a72d-d543-43fd-af33-ecef76e0a5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\源文件\mvtk_utilities\dicom">
+      <UniqueIdentifier>{3ae3a42b-faa3-4f6b-ab24-617d2c8ff2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\源文件\mvtk_utilities\jpeg">
+      <UniqueIdentifier>{54238777-c435-4344-9cf3-a1c82065c55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="头文件\Render">
+      <UniqueIdentifier>{010b1657-3b35-4976-8c3d-ac715626819c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Algorithm">
+      <UniqueIdentifier>{affa47f7-4645-42d7-8c39-7d458a645890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PThead">
+      <UniqueIdentifier>{a78766d3-080f-4aaf-81c8-2ffc9d80ec23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RayCast">
+      <UniqueIdentifier>{1edbbe89-d58e-41f1-ba82-dc984096135e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mvtkBMPReader.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkDICOMReader.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkJPGReader.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkRawReader.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkReader.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkSource.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVolumeReader.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkTarget.h">
+      <Filter>头文件\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkWriter.h">
+      <Filter>头文件\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkCommonIncludes.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkGarbageCollector.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkGlobal.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkObject.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkObserver.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkProcessObject.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkRCPtr.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkDataObject.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkMesh.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVolume.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jchuff.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jconfig.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jdct.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jdhuff.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jerror.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jinclude.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jmemsys.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jmorecfg.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jpegDllConfig.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jpegint.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jpeglib.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\jpeg\jversion.h">
+      <Filter>头文件\mvtk_utilities\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMAppHelper.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMCallback.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMCMakeConfig.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMConfig.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMFile.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMParser.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMParserMap.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\dicom\DICOMTypes.h">
+      <Filter>头文件\mvtk_utilities\dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_lineareq.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_matrix.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_polynomial.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_rand.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_transform.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_vector.h">
+      <Filter>头文件\mvtk_utilities\mvtk_nl</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkFilter.h">
+      <Filter>头文件\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVolumeContourFilter.h">
+      <Filter>头文件\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVolumeToVolumeFilter.h">
+      <Filter>头文件\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVector2.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVector3.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkVector4.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkNumberOfProcessors.h">
+      <Filter>头文件\PThead</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkSPMD.h">
+      <Filter>头文件\PThead</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkIsosurfaceRayCaster.core.h">
+      <Filter>头文件\RayCast</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkIsosurfaceRayCaster.h">
+      <Filter>头文件\RayCast</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkTypicalRayProducer.core.h">
+      <Filter>头文件\RayCast</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkTypicalRayProducer.h">
+      <Filter>头文件\RayCast</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkScene.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkMatrix4x4.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkQuaternion.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkIsosurfaceVRScene.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkSingleScalarVolume.core.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="mvtkAbstractScene.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mvtkBMPReader.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkDICOMReader.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkGarbageCollector.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkJPGReader.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkObject.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkRawReader.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkReader.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkVolume.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkVolumeReader.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkVolumeToVolumeFilter.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkWriter.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\dicom\DICOMAppHelper.cpp">
+      <Filter>头文件\源文件\mvtk_utilities\dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\dicom\DICOMFile.cpp">
+      <Filter>头文件\源文件\mvtk_utilities\dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\dicom\DICOMParser.cpp">
+      <Filter>头文件\源文件\mvtk_utilities\dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcapimin.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcapistd.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jccoefct.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jccolor.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcdctmgr.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jchuff.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcinit.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcmainct.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcmarker.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcmaster.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcomapi.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcparam.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcphuff.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcprepct.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jcsample.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jctrans.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdapimin.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdapistd.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdatadst.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdatasrc.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdcoefct.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdcolor.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jddctmgr.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdhuff.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdinput.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdmainct.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdmarker.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdmaster.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdmerge.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdphuff.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdpostct.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdsample.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jdtrans.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jerror.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jfdctflt.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jfdctfst.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jfdctint.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jidctflt.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jidctfst.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jidctint.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jidctred.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jmemmgr.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jmemnobs.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jquant1.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jquant2.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtk_utilities\jpeg\jutils.c">
+      <Filter>头文件\源文件\mvtk_utilities\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkScene.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkIsosurfaceRayCaster.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkTypicalRayProducer.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkMatrix4x4.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkQuaternion.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkIsosurfaceVRScene.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mvtkSPMD.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

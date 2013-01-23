@@ -32,7 +32,6 @@ public:
 	MVTK_TYPE(mvtkBMPReader,mvtkVolumeReader)
 
 	virtual void PrintSelf(ostream& os){};
-
 	virtual void Update();
 
 	mvtkBMPReader(){};

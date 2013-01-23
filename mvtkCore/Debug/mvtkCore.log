@@ -1,0 +1,178 @@
+﻿Build started 2013/1/5 星期六 20:25:10.
+     1>Project "G:\mvtk\mvtkCore\mvtkCore.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../libs/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MVTKCORE_EXPORTS /D MVTK_COMMON_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt mvtkBMPReader.cpp mvtkDICOMReader.cpp mvtkGarbageCollector.cpp mvtkIsosurfaceRayCaster.cpp mvtkIsosurfaceVRScene.cpp mvtkJPGReader.cpp mvtkMatrix4x4.cpp mvtkObject.cpp mvtkQuaternion.cpp mvtkRawReader.cpp mvtkReader.cpp mvtkScene.cpp mvtkSPMD.cpp mvtkTypicalRayProducer.cpp mvtkVolume.cpp mvtkVolumeReader.cpp mvtkVolumeToVolumeFilter.cpp mvtkWriter.cpp mvtk_utilities\dicom\DICOMAppHelper.cpp mvtk_utilities\dicom\DICOMFile.cpp mvtk_utilities\dicom\DICOMParser.cpp
+         DICOMParser.cpp
+         DICOMFile.cpp
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomfile.cpp(234): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomfile.cpp(263): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         DICOMAppHelper.cpp
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomapphelper.cpp(602): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomapphelper.cpp(628): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomapphelper.cpp(667): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomapphelper.cpp(699): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\dicom\dicomapphelper.cpp(817): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         mvtkWriter.cpp
+         mvtkVolumeToVolumeFilter.cpp
+         mvtkVolumeReader.cpp
+         mvtkVolume.cpp
+         mvtkTypicalRayProducer.cpp
+         mvtkSPMD.cpp
+         mvtkScene.cpp
+         mvtkReader.cpp
+         mvtkRawReader.cpp
+         mvtkQuaternion.cpp
+         mvtkObject.cpp
+         mvtkMatrix4x4.cpp
+         mvtkJPGReader.cpp
+         mvtkIsosurfaceVRScene.cpp
+         mvtkIsosurfaceRayCaster.cpp
+         mvtkGarbageCollector.cpp
+         mvtkDICOMReader.cpp
+         Generating Code...
+         Compiling...
+         mvtkBMPReader.cpp
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../libs/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MVTKCORE_EXPORTS /D MVTK_COMMON_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt mvtk_utilities\jpeg\jcapimin.c mvtk_utilities\jpeg\jcapistd.c mvtk_utilities\jpeg\jccoefct.c mvtk_utilities\jpeg\jccolor.c mvtk_utilities\jpeg\jcdctmgr.c mvtk_utilities\jpeg\jchuff.c mvtk_utilities\jpeg\jcinit.c mvtk_utilities\jpeg\jcmainct.c mvtk_utilities\jpeg\jcmarker.c mvtk_utilities\jpeg\jcmaster.c mvtk_utilities\jpeg\jcomapi.c mvtk_utilities\jpeg\jcparam.c mvtk_utilities\jpeg\jcphuff.c mvtk_utilities\jpeg\jcprepct.c mvtk_utilities\jpeg\jcsample.c mvtk_utilities\jpeg\jctrans.c mvtk_utilities\jpeg\jdapimin.c mvtk_utilities\jpeg\jdapistd.c mvtk_utilities\jpeg\jdatadst.c mvtk_utilities\jpeg\jdatasrc.c mvtk_utilities\jpeg\jdcoefct.c mvtk_utilities\jpeg\jdcolor.c mvtk_utilities\jpeg\jddctmgr.c mvtk_utilities\jpeg\jdhuff.c mvtk_utilities\jpeg\jdinput.c mvtk_utilities\jpeg\jdmainct.c mvtk_utilities\jpeg\jdmarker.c mvtk_utilities\jpeg\jdmaster.c mvtk_utilities\jpeg\jdmerge.c mvtk_utilities\jpeg\jdphuff.c mvtk_utilities\jpeg\jdpostct.c mvtk_utilities\jpeg\jdsample.c mvtk_utilities\jpeg\jdtrans.c mvtk_utilities\jpeg\jerror.c mvtk_utilities\jpeg\jfdctflt.c mvtk_utilities\jpeg\jfdctfst.c mvtk_utilities\jpeg\jfdctint.c mvtk_utilities\jpeg\jidctflt.c mvtk_utilities\jpeg\jidctfst.c mvtk_utilities\jpeg\jidctint.c mvtk_utilities\jpeg\jidctred.c mvtk_utilities\jpeg\jmemmgr.c mvtk_utilities\jpeg\jmemnobs.c mvtk_utilities\jpeg\jquant1.c mvtk_utilities\jpeg\jquant2.c mvtk_utilities\jpeg\jutils.c
+         jutils.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+     1>g:\mvtk\mvtkcore\mvtk_utilities\jpeg\jmemmgr.c(1106): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\jpeg\jmemmgr.c(1109): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         jidctred.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+     1>g:\mvtk\mvtkcore\mvtk_utilities\jpeg\jerror.c(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>g:\mvtk\mvtkcore\mvtk_utilities\jpeg\jerror.c(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdphuff.c
+         jdmerge.c
+         jdmaster.c
+         jdmarker.c
+         Generating Code...
+         Compiling...
+         jdmainct.c
+         jdinput.c
+         jdhuff.c
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcsample.c
+         jcprepct.c
+         jcphuff.c
+         jcparam.c
+         jcomapi.c
+         jcmaster.c
+         jcmarker.c
+         jcmainct.c
+         jcinit.c
+         Generating Code...
+         Compiling...
+         jchuff.c
+         jcdctmgr.c
+         jccolor.c
+         jccoefct.c
+         jcapistd.c
+         jcapimin.c
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\mvtk\Debug\mvtkCore.dll" /INCREMENTAL /NOLOGO /LIBPATH:../libs/lib opengl32.lib glu32.lib glew32.lib pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\mvtk\Debug\mvtkCore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\mvtk\Debug\mvtkCore.lib" /MACHINE:X86 /SAFESEH /DLL Debug\mvtkBMPReader.obj
+         Debug\mvtkDICOMReader.obj
+         Debug\mvtkGarbageCollector.obj
+         Debug\mvtkIsosurfaceRayCaster.obj
+         Debug\mvtkIsosurfaceVRScene.obj
+         Debug\mvtkJPGReader.obj
+         Debug\mvtkMatrix4x4.obj
+         Debug\mvtkObject.obj
+         Debug\mvtkQuaternion.obj
+         Debug\mvtkRawReader.obj
+         Debug\mvtkReader.obj
+         Debug\mvtkScene.obj
+         Debug\mvtkSPMD.obj
+         Debug\mvtkTypicalRayProducer.obj
+         Debug\mvtkVolume.obj
+         Debug\mvtkVolumeReader.obj
+         Debug\mvtkVolumeToVolumeFilter.obj
+         Debug\mvtkWriter.obj
+         Debug\DICOMAppHelper.obj
+         Debug\DICOMFile.obj
+         Debug\DICOMParser.obj
+         Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcphuff.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdphuff.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jidctred.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jutils.obj
+     1>mvtkBMPReader.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library G:\mvtk\Debug\mvtkCore.lib and object G:\mvtk\Debug\mvtkCore.exp
+         mvtkCore.vcxproj -> G:\mvtk\Debug\mvtkCore.dll
+     1>Done Building Project "G:\mvtk\mvtkCore\mvtkCore.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.16

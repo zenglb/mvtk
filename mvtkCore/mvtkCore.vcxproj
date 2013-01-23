@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F6D8536D-A60B-484C-AB4D-7BFDFCAFF7C0}</ProjectGuid>
+    <RootNamespace>mvtkCore</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MVTKCORE_EXPORTS;MVTK_COMMON_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../libs/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>../libs/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glew32.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MVTKCORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="mvtkAbstractScene.h" />
+    <ClInclude Include="mvtkBMPReader.h" />
+    <ClInclude Include="mvtkDICOMReader.h" />
+    <ClInclude Include="mvtkIsosurfaceRayCaster.core.h" />
+    <ClInclude Include="mvtkIsosurfaceRayCaster.h" />
+    <ClInclude Include="mvtkIsosurfaceVRScene.h" />
+    <ClInclude Include="mvtkJPGReader.h" />
+    <ClInclude Include="mvtkMatrix4x4.h" />
+    <ClInclude Include="mvtkNumberOfProcessors.h" />
+    <ClInclude Include="mvtkQuaternion.h" />
+    <ClInclude Include="mvtkRawReader.h" />
+    <ClInclude Include="mvtkReader.h" />
+    <ClInclude Include="mvtkScene.h" />
+    <ClInclude Include="mvtkSource.h" />
+    <ClInclude Include="mvtkSPMD.h" />
+    <ClInclude Include="mvtkTypicalRayProducer.core.h" />
+    <ClInclude Include="mvtkTypicalRayProducer.h" />
+    <ClInclude Include="mvtkVector2.h" />
+    <ClInclude Include="mvtkVector3.h" />
+    <ClInclude Include="mvtkVector4.h" />
+    <ClInclude Include="mvtkVolumeReader.h" />
+    <ClInclude Include="mvtkTarget.h" />
+    <ClInclude Include="mvtkWriter.h" />
+    <ClInclude Include="mvtkCommonIncludes.h" />
+    <ClInclude Include="mvtkGarbageCollector.h" />
+    <ClInclude Include="mvtkGlobal.h" />
+    <ClInclude Include="mvtkObject.h" />
+    <ClInclude Include="mvtkObserver.h" />
+    <ClInclude Include="mvtkProcessObject.h" />
+    <ClInclude Include="mvtkRCPtr.h" />
+    <ClInclude Include="mvtkDataObject.h" />
+    <ClInclude Include="mvtkMesh.h" />
+    <ClInclude Include="mvtkVolume.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jchuff.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jconfig.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jdct.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jdhuff.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jerror.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jinclude.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jmemsys.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jmorecfg.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jpegDllConfig.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jpegint.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jpeglib.h" />
+    <ClInclude Include="mvtk_utilities\jpeg\jversion.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMAppHelper.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMCallback.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMCMakeConfig.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMConfig.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMFile.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMParser.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMParserMap.h" />
+    <ClInclude Include="mvtk_utilities\dicom\DICOMTypes.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_lineareq.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_matrix.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_polynomial.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_rand.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_transform.h" />
+    <ClInclude Include="mvtk_utilities\mvtk_nl\mvtk_nl_vector.h" />
+    <ClInclude Include="mvtkFilter.h" />
+    <ClInclude Include="mvtkVolumeContourFilter.h" />
+    <ClInclude Include="mvtkVolumeToVolumeFilter.h" />
+    <ClInclude Include="mvtkSingleScalarVolume.core.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mvtkBMPReader.cpp" />
+    <ClCompile Include="mvtkDICOMReader.cpp" />
+    <ClCompile Include="mvtkGarbageCollector.cpp" />
+    <ClCompile Include="mvtkIsosurfaceRayCaster.cpp" />
+    <ClCompile Include="mvtkIsosurfaceVRScene.cpp" />
+    <ClCompile Include="mvtkJPGReader.cpp" />
+    <ClCompile Include="mvtkMatrix4x4.cpp" />
+    <ClCompile Include="mvtkObject.cpp" />
+    <ClCompile Include="mvtkQuaternion.cpp" />
+    <ClCompile Include="mvtkRawReader.cpp" />
+    <ClCompile Include="mvtkReader.cpp" />
+    <ClCompile Include="mvtkScene.cpp" />
+    <ClCompile Include="mvtkSPMD.cpp" />
+    <ClCompile Include="mvtkTypicalRayProducer.cpp" />
+    <ClCompile Include="mvtkVolume.cpp" />
+    <ClCompile Include="mvtkVolumeReader.cpp" />
+    <ClCompile Include="mvtkVolumeToVolumeFilter.cpp" />
+    <ClCompile Include="mvtkWriter.cpp" />
+    <ClCompile Include="mvtk_utilities\dicom\DICOMAppHelper.cpp" />
+    <ClCompile Include="mvtk_utilities\dicom\DICOMFile.cpp" />
+    <ClCompile Include="mvtk_utilities\dicom\DICOMParser.cpp" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcapimin.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcapistd.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jccoefct.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jccolor.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcdctmgr.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jchuff.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcinit.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcmainct.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcmarker.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcmaster.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcomapi.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcparam.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcphuff.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcprepct.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jcsample.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jctrans.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdapimin.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdapistd.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdatadst.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdatasrc.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdcoefct.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdcolor.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jddctmgr.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdhuff.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdinput.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdmainct.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdmarker.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdmaster.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdmerge.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdphuff.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdpostct.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdsample.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jdtrans.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jerror.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jfdctflt.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jfdctfst.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jfdctint.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jidctflt.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jidctfst.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jidctint.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jidctred.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jmemmgr.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jmemnobs.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jquant1.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jquant2.c" />
+    <ClCompile Include="mvtk_utilities\jpeg\jutils.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

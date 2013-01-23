@@ -144,7 +144,7 @@ public:
 	/// \param s[2] Return the spacing (mm) in two adjacent voxels in z axis.
 	/// It is equal to the return value of GetSpacingZ()
 	///////////////////////////////////////////////////////////////////////////
-	void GetSpacings(float s[3]) const 
+	void GetSpacings(float s[4]) const 
 	{
 		s[0] = m_Spacings[0];
 		s[1] = m_Spacings[1];
@@ -379,9 +379,15 @@ public:
 	///////////////////////////////////////////////////////////////////////////
 	void SetDataTypeToChar() { this->SetDataType(MVTK_CHAR); }
 
+	//获取最大最小值
+	void GetMinMaxValue(double &minVal, double &maxVal);
+
 	bool GetIsInitialize(){
 		return this->m_IsInitialize;
 	}
+
+	//深拷贝函数
+	void DeepCopy(mvtkVolume* in_mvtkVolume,bool setDate=false);
 
 protected:
 	mvtkVolume(void);
@@ -401,7 +407,9 @@ protected:
 	//		如果有卡顿需要优化可以改变存储顺序以最大化使用cache  zenglb 2012-11-24 21:09:08
 	void *m_Data;
 
-
+	//获得最大最小值
+	template<typename T>
+	void t_GetMinMaxValue(T* data,unsigned size,double &minVal, double &maxVal);
 //private:
 //	mvtkVolume(const mvtkVolume&);
 //	void operator=(const mvtkVolume&);
