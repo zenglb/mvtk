@@ -1,0 +1,1929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="mvtkBMPReader" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAIAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkBMPReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkDICOMReader" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgBAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>mvtkDICOMReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkJPGReader" Collapsed="true">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>mvtkJPGReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkRawReader" Collapsed="true">
+    <Position X="12.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAAAAAAAAAAQAAAAAQAgAAAAAAAQ=</HashCode>
+      <FileName>mvtkRawReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkReader" Collapsed="true">
+    <Position X="9" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAIAAAAAAoAAAAAAAACAAAgAAYA=</HashCode>
+      <FileName>mvtkReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkSource" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAIAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkSource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVolumeReader" Collapsed="true">
+    <Position X="9" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAoAEAAAhAAEAAAAKgAAAAAAAEAABAACAAAAAAgQA=</HashCode>
+      <FileName>mvtkVolumeReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkTarget" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkTarget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkWriter" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAABAAIAAAAAAIAAAAAAAAABAAgAAQA=</HashCode>
+      <FileName>mvtkWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkObject" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAhAAEAEAAIAIABAAAFCIgIgAAAABAQEAAA=</HashCode>
+      <FileName>mvtkObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkObserver" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkProcessObject" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQAAAAAAAAAEAQAAAIAAAAABAEAYEAAAAAEAAAEQIA=</HashCode>
+      <FileName>mvtkProcessObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkDataObject" Collapsed="true">
+    <Position X="20.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAIAAAAAAAAAAABAAAgEAAAAAAA=</HashCode>
+      <FileName>mvtkDataObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkMesh" Collapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFEEAEggYEBAEIAAkIgCAAeACAQAA2gAFEApSw=</HashCode>
+      <FileName>mvtkMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVolume" Collapsed="true">
+    <Position X="21.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgFuqAEUIJAAYAVAOMgAABIYMYOZCiLICgABEAgBYQ=</HashCode>
+      <FileName>mvtkVolume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMOrderingElements" Collapsed="true">
+    <Position X="50" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAARAAAAAAgAAAQAAAAAABAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMAppHelper" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UIHJENkCJAIoDSQI2SIkh/NKMIdggAGzGMSwAMxQEMA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMCallback" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMMemberCallback&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAEAAAAAAABA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMFile" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAIAQAQYgiAAACABAIigAAAAAgNHBAgARCAEAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMParser" Collapsed="true">
+    <Position X="51.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEQGAJCQCFAAUAAEAZAAAQRAYAgAAEAAAAAgAABgAAE=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMMapKey" Collapsed="true">
+    <Position X="11.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMMapValue" Collapsed="true">
+    <Position X="2.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMParserMap" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMImplicitTypeMap" Collapsed="true">
+    <Position X="48.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtk_nl_matrix&lt;T&gt;" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgGAICAAASAAAQGKRCwQAQAkGAAAABWYgwCwAEEAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtk_nl_vector&lt;T&gt;" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAhCAICAgAEAAAAGMAiQRAQAEGAAABAQAgwAABEAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtk_nl_vector_ref&lt;T&gt;" Collapsed="true">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkFilter" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIQQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVolumeContourFilter" Collapsed="true">
+    <Position X="16.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkVolumeContourFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVolumeToVolumeFilter" Collapsed="true">
+    <Position X="16.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAIAAAAAAAAAAAAAIIAAAgAAAEAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>mvtkVolumeToVolumeFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMAppHelperImplementation" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABIAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMParserImplementation" Collapsed="true">
+    <Position X="53.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAAAAAgAAQCAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParser.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkAbstractScene" Collapsed="true">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAAAIAAAAAAAAIAAAAEAABAAAAYABACAAWAIQA=</HashCode>
+      <FileName>mvtkabstractscene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkIsosurfaceVRScene" Collapsed="true">
+    <Position X="2.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAgwBQABRAgYAQIQCAAAgAAAIiAAIQAAGBIEAAAA=</HashCode>
+      <FileName>mvtkisosurfacevrscene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkScene" Collapsed="true">
+    <Position X="2.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASQ1AACIDEgiAgQQ4AgATAECUIEUgJITCAAgmgIQA=</HashCode>
+      <FileName>mvtkscene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumeAccess" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAQAAIAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkSingleScalarVolume.core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T_VolumeAccess&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAAAAAAAAAMAgAAAIAAIAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>mvtkSingleScalarVolume.core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkMatrix4x4" Collapsed="true">
+    <Position X="48.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAIAIUAAAAAAAAAAAACgQgggCAA=</HashCode>
+      <FileName>mvtkMatrix4x4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkQuaternion" Collapsed="true">
+    <Position X="50" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAEAAAAQAAAAAAAIAAAEhgAQAAAAA=</HashCode>
+      <FileName>mvtkQuaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVector2" Collapsed="true">
+    <Position X="53.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAEAAAAUBAAIAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>mvtkVector2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVector3" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAEAAAAUBAAAAAAAAAAAAgAAAACBA=</HashCode>
+      <FileName>mvtkVector3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkVector4" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAEAAAAUBAAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>mvtkVector4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkIsosurfaceRayCaster" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAjAwAQBBRAAVAQEACAEgAAAAAiACAQEAcBABAAAA=</HashCode>
+      <FileName>mvtkIsosurfaceRayCaster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtkTypicalRayProducer" Collapsed="true">
+    <Position X="51.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAEAAAJCDAQABgBDaMAEIBAgCCAAAAgAACFAg=</HashCode>
+      <FileName>mvtkTypicalRayProducer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mvtk_nl::rand_mersenne_twister" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAAAAAQQDAAAAAIAAAAAIAAAEAwQAAIIBAAQ=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_rand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_0012_1" Collapsed="true">
+    <Position X="40.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0027_1" Collapsed="true">
+    <Position X="3.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAACAIAAAAABAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0027_2" Collapsed="true">
+    <Position X="39.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0027_3" Collapsed="true">
+    <Position X="35.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIACAAAAEAAABAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="backing_store_struct" Collapsed="true">
+    <Position X="30.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAAAAAAAAAAEAAAAAAAAAACgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemsys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_comp_master" Collapsed="true">
+    <Position X="48.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_c_main_controller" Collapsed="true">
+    <Position X="51.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_c_prep_controller" Collapsed="true">
+    <Position X="53.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_c_coef_controller" Collapsed="true">
+    <Position X="50" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_color_converter" Collapsed="true">
+    <Position X="43" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_downsampler" Collapsed="true">
+    <Position X="46.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_forward_dct" Collapsed="true">
+    <Position X="53.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_entropy_encoder" Collapsed="true">
+    <Position X="50" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_marker_writer" Collapsed="true">
+    <Position X="48.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_decomp_master" Collapsed="true">
+    <Position X="43" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_input_controller" Collapsed="true">
+    <Position X="43" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_d_main_controller" Collapsed="true">
+    <Position X="51.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_d_coef_controller" Collapsed="true">
+    <Position X="50" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_d_post_controller" Collapsed="true">
+    <Position X="53.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_marker_reader" Collapsed="true">
+    <Position X="46.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAAEAAIAAAAAAAAAEAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_entropy_decoder" Collapsed="true">
+    <Position X="48.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_inverse_dct" Collapsed="true">
+    <Position X="44.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_upsampler" Collapsed="true">
+    <Position X="43" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_color_deconverter" Collapsed="true">
+    <Position X="44.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_color_quantizer" Collapsed="true">
+    <Position X="46.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jvirt_sarray_control" Collapsed="true">
+    <Position X="36.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAACAAAQAQAAAAQCAQgAAAAAAAAYECAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jvirt_barray_control" Collapsed="true">
+    <Position X="15.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAQACAAAQAQAAAAQCAQgAAAAAAAAYECAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0041_1" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0041_2" Collapsed="true">
+    <Position X="31.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0041_3" Collapsed="true">
+    <Position X="27.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAARAIIABCkBQggAAAAAAEAAAAAAABEAAASCAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0041_4" Collapsed="true">
+    <Position X="38.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAIAAABAAAAAAAAAAAABAAAAAAIIAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_marker_struct" Collapsed="true">
+    <Position X="19.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAABAAAAAAAAAAAABAAAAAAQAAIAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_common_struct" Collapsed="true">
+    <Position X="37.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_compress_struct" Collapsed="true">
+    <Position X="7.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFEABUEABIABpAZBBQACEBAARRAKWIwEYIiAAUCwIDQ=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_decompress_struct" Collapsed="true">
+    <Position X="36.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFAQTUEkBIABpJRhAEQGABwABZAOUo0nYIiAFUYisDY=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_error_mgr" Collapsed="true">
+    <Position X="51.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAEgAAAACAAAABAAEAAAACAAAAAgBAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_progress_mgr" Collapsed="true">
+    <Position X="51.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAACAAAIAAAAAAAAgAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_destination_mgr" Collapsed="true">
+    <Position X="44.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_source_mgr" Collapsed="true">
+    <Position X="53.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_memory_mgr" Collapsed="true">
+    <Position X="50" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ltstdstr" Collapsed="true">
+    <Position X="48.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DICOMTagInfo" Collapsed="true">
+    <Position X="43" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="group_element_compare" Collapsed="true">
+    <Position X="44.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_error_mgr" Collapsed="true">
+    <Position X="3.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkJPGReader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mvtkThreadInfo" Collapsed="true">
+    <Position X="50" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAQAAAAAAAABAAAAAAAAAAAAgAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>mvtkSPMD.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="lt_pair_int_string" Collapsed="true">
+    <Position X="46.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="lt_pair_float_string" Collapsed="true">
+    <Position X="44.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gt_pair_int_string" Collapsed="true">
+    <Position X="48.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gt_pair_float_string" Collapsed="true">
+    <Position X="46.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMAppHelper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_000e_1" Collapsed="true">
+    <Position X="21.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACQAAAABAAAAAABAAAAAAAACAAAAAAAAgAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jccoefct.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_000f_1" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jccolor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0010_1" Collapsed="true">
+    <Position X="14.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcdctmgr.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_1" Collapsed="true">
+    <Position X="34.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_2" Collapsed="true">
+    <Position X="4.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAGAAAAAAAAAAAAAAAAAAACAAAAAgBAACAAAQAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0011_3" Collapsed="true">
+    <Position X="23.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0014_1" Collapsed="true">
+    <Position X="27.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAQAAAAAAAAAAAgAAAAAAAAABAABBAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmainct.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0015_2" Collapsed="true">
+    <Position X="27.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmarker.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0016_2" Collapsed="true">
+    <Position X="26.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmaster.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001a_1" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAKgAQCACAAAIChgAAAAAAgAAAAAAAAAAAAAQEACA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcphuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001b_1" Collapsed="true">
+    <Position X="24.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAQAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcprepct.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001c_1" Collapsed="true">
+    <Position X="18.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcsample.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001d_1" Collapsed="true">
+    <Position X="43" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAABAAAAAABAAAAgAAACAAAAAAAAgAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jctrans.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_1" Collapsed="true">
+    <Position X="0.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdatadst.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0021_1" Collapsed="true">
+    <Position X="14.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdatasrc.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0022_1" Collapsed="true">
+    <Position X="44.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACQAAAAAABAAAABAAAAAAAAABAAAAAAAgAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdcoefct.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0023_1" Collapsed="true">
+    <Position X="32.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACgAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdcolor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0025_1" Collapsed="true">
+    <Position X="6.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jddctmgr.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0026_1" Collapsed="true">
+    <Position X="46.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0026_2" Collapsed="true">
+    <Position X="19.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCACAAAAAAAAAAAAAAAAACAAAAAgBAAAAAAQAkAE=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0028_1" Collapsed="true">
+    <Position X="22.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdinput.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0029_1" Collapsed="true">
+    <Position X="48.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAQgAIBAAAAAAAAAAAAAAAABEAgBAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmainct.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002a_2" Collapsed="true">
+    <Position X="15.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAEAAAAAAAAAAAAAAAAgABAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmarker.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002b_1" Collapsed="true">
+    <Position X="32.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmaster.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_1" Collapsed="true">
+    <Position X="23.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACgAAAAAAAAACAAAAAAAAAAAAAABAAIAAgAEAQAI=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmerge.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002d_1" Collapsed="true">
+    <Position X="50" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdphuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002d_2" Collapsed="true">
+    <Position X="11.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAACAAAAAAAACAAAAAgAAAAAAAQAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdphuff.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002e_1" Collapsed="true">
+    <Position X="3.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAAAAAAAAAQAAAAAAABACAABAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdpostct.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002f_1" Collapsed="true">
+    <Position X="51.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAAACAAAAAAAAgQAQAAAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdsample.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003b_3" Collapsed="true">
+    <Position X="19.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAgIAAAAAAAAAEAAAAAAAQAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0042_1" Collapsed="true">
+    <Position X="13.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJECAAAAAAACAACAAAAAAAAAMAAAAAAAIAAAAAAQAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0043_1" Collapsed="true">
+    <Position X="53.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBCEAAAAAAAAAAAAAgAAAAAECAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0043_2" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEEAAAAAAAAAAAIAAgAAAAAAABAAAAAACCAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="index_type" Collapsed="true">
+    <Position X="43" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="size_type" Collapsed="true">
+    <Position X="51.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtkString" Collapsed="true">
+    <Position X="50" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtkStringList" Collapsed="true">
+    <Position X="51.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScalarParameterType" Collapsed="true">
+    <Position X="48.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScalarPixelType" Collapsed="true">
+    <Position X="50" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScalarIndexType" Collapsed="true">
+    <Position X="46.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VectorParameterType" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VectorPixelType" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VectorIndexType" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkGlobal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="c_derived_tbl" Collapsed="true">
+    <Position X="40.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="boolean" Collapsed="true">
+    <Position X="44.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jconfig.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DCTELEM" Collapsed="true">
+    <Position X="46.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdct.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JMETHOD" Collapsed="true">
+    <Position X="50" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcsample.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ISLOW_MULT_TYPE" Collapsed="true">
+    <Position X="46.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdct.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IFAST_MULT_TYPE" Collapsed="true">
+    <Position X="53.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdct.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FLOAT_MULT_TYPE" Collapsed="true">
+    <Position X="50" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdct.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="d_derived_tbl" Collapsed="true">
+    <Position X="3.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="bit_buf_type" Collapsed="true">
+    <Position X="43" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="bitread_perm_state" Collapsed="true">
+    <Position X="39.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="bitread_working_state" Collapsed="true">
+    <Position X="35.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_MESSAGE_CODE" Collapsed="true">
+    <Position X="23.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jerror.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="XMSH" Collapsed="true">
+    <Position X="51.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemsys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EMSH" Collapsed="true">
+    <Position X="48.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemsys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="handle_union" Collapsed="true">
+    <Position X="51.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemsys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="backing_store_ptr" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemsys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="backing_store_info" Collapsed="true">
+    <Position X="30.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemsys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPLE" Collapsed="true">
+    <Position X="0.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JCOEF" Collapsed="true">
+    <Position X="28.5" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JOCTET" Collapsed="true">
+    <Position X="51.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT8" Collapsed="true">
+    <Position X="46.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT16" Collapsed="true">
+    <Position X="6.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INT16" Collapsed="true">
+    <Position X="13.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JDIMENSION" Collapsed="true">
+    <Position X="48.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmorecfg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_BUF_MODE" Collapsed="true">
+    <Position X="40.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPROW" Collapsed="true">
+    <Position X="1.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPARRAY" Collapsed="true">
+    <Position X="3.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPIMAGE" Collapsed="true">
+    <Position X="3.5" Y="32.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCK" Collapsed="true">
+    <Position X="28.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCKROW" Collapsed="true">
+    <Position X="28.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCKARRAY" Collapsed="true">
+    <Position X="25.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCKIMAGE" Collapsed="true">
+    <Position X="25.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JCOEFPTR" Collapsed="true">
+    <Position X="28.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JQUANT_TBL" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JHUFF_TBL" Collapsed="true">
+    <Position X="31.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jpeg_component_info" Collapsed="true">
+    <Position X="27.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jpeg_scan_info" Collapsed="true">
+    <Position X="38.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jpeg_saved_marker_ptr" Collapsed="true">
+    <Position X="19.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_COLOR_SPACE" Collapsed="true">
+    <Position X="38.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_DCT_METHOD" Collapsed="true">
+    <Position X="38.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_DITHER_MODE" Collapsed="true">
+    <Position X="11.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="j_common_ptr" Collapsed="true">
+    <Position X="37.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="j_compress_ptr" Collapsed="true">
+    <Position X="7.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="j_decompress_ptr" Collapsed="true">
+    <Position X="36.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jvirt_sarray_ptr" Collapsed="true">
+    <Position X="36.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jvirt_barray_ptr" Collapsed="true">
+    <Position X="15.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DICOMMapKeyOverride" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DICOMMapValueOverride" Collapsed="true">
+    <Position X="2.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DICOMTypeValue" Collapsed="true">
+    <Position X="35.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMParserMap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="doublebyte" Collapsed="true">
+    <Position X="35.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="quadbyte" Collapsed="true">
+    <Position X="44.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ushort" Collapsed="true">
+    <Position X="50" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ulong" Collapsed="true">
+    <Position X="48.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint" Collapsed="true">
+    <Position X="44.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\dicom\DICOMTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtk_nl::mvtk_nl_rank_type" Collapsed="true">
+    <Position X="7.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtk_nl::mvtk_nl_rank_pivot_type" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtk_nl::regular_symmetry_res" Collapsed="true">
+    <Position X="33.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtk_nl::eigenvalue_vector_res" Collapsed="true">
+    <Position X="30.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtk_nl::lu_res" Collapsed="true">
+    <Position X="30.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtk_nl::IntegerType" Collapsed="true">
+    <Position X="44.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_rand.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_error_ptr" Collapsed="true">
+    <Position X="3.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkJPGReader.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_coef_controller" Collapsed="true">
+    <Position X="18.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jccoefct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_coef_ptr" Collapsed="true">
+    <Position X="18.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jccoefct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_color_converter" Collapsed="true">
+    <Position X="28.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jccolor.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_cconvert_ptr" Collapsed="true">
+    <Position X="28.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jccolor.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_fdct_controller" Collapsed="true">
+    <Position X="11.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcdctmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_fdct_ptr" Collapsed="true">
+    <Position X="11.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcdctmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="savable_state" Collapsed="true">
+    <Position X="34.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huff_entropy_encoder" Collapsed="true">
+    <Position X="7.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huff_entropy_ptr" Collapsed="true">
+    <Position X="7.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="working_state" Collapsed="true">
+    <Position X="23.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jchuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_main_controller" Collapsed="true">
+    <Position X="26.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmainct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_main_ptr" Collapsed="true">
+    <Position X="26.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmainct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JPEG_MARKER" Collapsed="true">
+    <Position X="34.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmarker.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_marker_writer" Collapsed="true">
+    <Position X="26.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmarker.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_marker_ptr" Collapsed="true">
+    <Position X="26.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmarker.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="c_pass_type" Collapsed="true">
+    <Position X="34.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmaster.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_comp_master" Collapsed="true">
+    <Position X="24.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmaster.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_master_ptr" Collapsed="true">
+    <Position X="24.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmaster.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="phuff_entropy_encoder" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcphuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="phuff_entropy_ptr" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcphuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_prep_controller" Collapsed="true">
+    <Position X="22.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcprepct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_prep_ptr" Collapsed="true">
+    <Position X="22.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcprepct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_downsampler" Collapsed="true">
+    <Position X="18.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcsample.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_downsample_ptr" Collapsed="true">
+    <Position X="18.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcsample.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_destination_mgr" Collapsed="true">
+    <Position X="3.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdatadst.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_dest_ptr" Collapsed="true">
+    <Position X="3.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdatadst.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_source_mgr" Collapsed="true">
+    <Position X="11.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdatasrc.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_src_ptr" Collapsed="true">
+    <Position X="11.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdatasrc.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_color_deconverter" Collapsed="true">
+    <Position X="32.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdcolor.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_idct_controller" Collapsed="true">
+    <Position X="7.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jddctmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_idct_ptr" Collapsed="true">
+    <Position X="7.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jddctmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="multiplier_table" Collapsed="true">
+    <Position X="46.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jddctmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huff_entropy_decoder" Collapsed="true">
+    <Position X="19.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdhuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_input_controller" Collapsed="true">
+    <Position X="21.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdinput.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_inputctl_ptr" Collapsed="true">
+    <Position X="21.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdinput.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_marker_reader" Collapsed="true">
+    <Position X="15.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmarker.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_decomp_master" Collapsed="true">
+    <Position X="32.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmaster.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_upsampler" Collapsed="true">
+    <Position X="20.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmerge.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_upsample_ptr" Collapsed="true">
+    <Position X="20.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmerge.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="phuff_entropy_decoder" Collapsed="true">
+    <Position X="11.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdphuff.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_post_controller" Collapsed="true">
+    <Position X="3.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdpostct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_post_ptr" Collapsed="true">
+    <Position X="3.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdpostct.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="small_pool_ptr" Collapsed="true">
+    <Position X="43" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="small_pool_hdr" Collapsed="true">
+    <Position X="53.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="large_pool_ptr" Collapsed="true">
+    <Position X="43" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="large_pool_hdr" Collapsed="true">
+    <Position X="53.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_memory_mgr" Collapsed="true">
+    <Position X="17.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_mem_ptr" Collapsed="true">
+    <Position X="17.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jmemmgr.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ODITHER_MATRIX" Collapsed="true">
+    <Position X="53.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ODITHER_MATRIX_PTR" Collapsed="true">
+    <Position X="43" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FSERROR" Collapsed="true">
+    <Position X="13.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LOCFSERROR" Collapsed="true">
+    <Position X="44.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FSERRPTR" Collapsed="true">
+    <Position X="13.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_cquantizer" Collapsed="true">
+    <Position X="16.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_cquantize_ptr" Collapsed="true">
+    <Position X="16.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant1.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="histcell" Collapsed="true">
+    <Position X="9.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="histptr" Collapsed="true">
+    <Position X="12.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hist1d" Collapsed="true">
+    <Position X="9.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hist2d" Collapsed="true">
+    <Position X="9.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hist3d" Collapsed="true">
+    <Position X="9.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="box" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="boxptr" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jquant2.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mvtkSPMDThread" Collapsed="true">
+    <Position X="48.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtkSPMD.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_0032_1" Collapsed="true">
+    <Position X="23.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jerror.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0040_1" Collapsed="true">
+    <Position X="39.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpegint.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0041_5" Collapsed="true">
+    <Position X="38.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAABAAQAAAAAAAACAAAAAAAAAEAgA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0041_6" Collapsed="true">
+    <Position X="38.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAEAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0041_7" Collapsed="true">
+    <Position X="11.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jpeglib.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0015_1" Collapsed="true">
+    <Position X="34.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQgBIAAAAAAAEAQABAQABACMR/AAAAABAAAIAAgAQ=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmarker.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0016_1" Collapsed="true">
+    <Position X="34.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jcmaster.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_002a_1" Collapsed="true">
+    <Position X="43" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQgBIAAAAAAAEAQABAQABACMR/AAAAABAAAIAAgAQ=</HashCode>
+      <FileName>mvtk_utilities\jpeg\jdmarker.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mvtk_nl::__unnamed_enum_0048_1" Collapsed="true">
+    <Position X="7.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mvtk_nl::__unnamed_enum_0048_2" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mvtk_nl::enum_regular_symmetry" Collapsed="true">
+    <Position X="31.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAABQAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mvtk_nl::enum_eigenvalue_vector" Collapsed="true">
+    <Position X="30.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAEAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mvtk_nl::enum_lu" Collapsed="true">
+    <Position X="30.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>mvtk_utilities\mvtk_nl\mvtk_nl_matrix_algo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

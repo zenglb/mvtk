@@ -150,6 +150,6 @@ void rendertest(int argc,char** argv)
 
 void main(int argc,char** argv)
 {
-	//rendertest(argc,argv);
-	readtest();
+	rendertest(argc,argv);
+	//readtest();
 }
